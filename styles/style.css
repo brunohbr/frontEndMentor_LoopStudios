@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#capa{
+    background-image: url(../images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 50px 90px;
+}
+
+.container{
+    width: 80%;
+   position: relative;
+    padding: 50px 80px;
+}
+
+.cardinfo{
+   position: absolute;
+    width: 450px;
+  padding: 50px;
+    left: 450px;
+    top: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    background-color: white;
+}
+.cardinfo p{
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+.cardinfo h1{
+    font-size: "alata";
+    text-transform: uppercase;
+}
+
+#creations{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.creationhead{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.creationhead button{
+padding: 1px 15px;
+font-size: 0.8rem;
+background-color: white;
+box-shadow: none;
+border: gray 1px solid;
+}
+ul{
+    display: flex;
+    color: white;
+
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+    padding-top: 9px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.card{
+    font-family: 'Josefin Sans', sans-serif;
+    
+    margin-top: 80px;
+    padding: 20px ;
+    color: white;
+    text-transform: uppercase;
+    border: white 1px solid;
+    width: 400px;
+    font-size: 2.5rem;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
