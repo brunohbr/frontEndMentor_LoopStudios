@@ -4,40 +4,67 @@
     box-sizing: border-box;
 }
 #capa{
+    display: flex;
+    justify-content: center;
     background-image: url(../images/desktop/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    padding: 50px 90px;
+    height: 650px;
+    padding: 50px 0px;
 }
 
 .container{
-    width: 80%;
+   
+   width: 1110px;
    position: relative;
-    padding: 50px 80px;
+    
+}
+.container2{
+    width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
 }
 
 .cardinfo{
    position: absolute;
-    width: 450px;
-  padding: 50px;
-    left: 450px;
-    top: 150px;
+    width: 540px;
+    height: 320px;
+  padding-top: 100px;
+  padding-left: 100px;
+
+    left: 568px;
+    top: 180px;
     font-family: 'Josefin Sans', sans-serif;
+    
     margin: auto;
     background-color: white;
 }
 .cardinfo p{
-    margin-top: 10px;
-    font-size: 0.8rem;
+    font-family: "Alata";
+    margin-top: 45px;
+    font-size: 15px;
+    color:  hsl(0, 0%, 41%);
 }
 .cardinfo h1{
-    font-size: "alata";
+    font-family: "Josefin Sans";
     text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+#leader{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+
 }
 
 #creations{
-    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
     margin-bottom: 30px;
 }
 .creationhead{
@@ -47,13 +74,25 @@
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-.creationhead button{
-padding: 1px 15px;
-font-size: 0.8rem;
+.creationhead h1{
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 200;
+}
+.btn{
+    font-family: "Alata";
+    color: black;
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+    font-weight: 700;
+padding: 7.5px 40px;
 background-color: white;
 box-shadow: none;
-border: gray 1px solid;
+border: gray 2px solid;
+text-transform: uppercase;
 }
+
 ul{
     display: flex;
     color: white;
@@ -64,6 +103,12 @@ li{
     margin-left: 20px;
     padding-top: 9px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0 ;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -73,17 +118,51 @@ li{
 .card{
     font-family: 'Josefin Sans', sans-serif;
     
-    margin-top: 80px;
-    padding: 20px ;
+    margin-top: 130px;
+    padding: 40px 50px ;
     color: white;
     text-transform: uppercase;
     border: white 1px solid;
-    width: 400px;
-    font-size: 2.5rem;
+    width: 650px;
+    height: 280px;
+    font-size: 4.5rem;
 
+}
+.imagem{
+     
+    position: relative;
+    
+    width: 256px;
+    
+margin-bottom: 20px;
+    
+}
+.texto{
+   position: absolute;
+}
+.imagem h2{
+    
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    text-transform: uppercase;
+    
+    
+}
+#produtos{
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 footer{
+    display: flex;
+    justify-content: center;
     background-color: black;
     color: white;
+    height: 160px;
+    margin-top 0px
 }
