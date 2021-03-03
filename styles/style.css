@@ -100,8 +100,11 @@ ul{
 }
 li{
     list-style: none;
-    margin-left: 20px;
+    
     padding-top: 9px;
+}
+li + li{
+    margin-left: 20px;
 }
 
 a {
@@ -148,7 +151,7 @@ margin-bottom: 20px;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
-    font-size: 35px;
+    font-size: 32px;
     text-transform: uppercase;
     
     
@@ -161,8 +164,39 @@ margin-bottom: 20px;
 footer{
     display: flex;
     justify-content: center;
+    
     background-color: black;
     color: white;
     height: 160px;
+    padding: 45px 0;
+    
+}
+footer img{
+    padding-bottom: 10px;
+}
+footer li{
+    font-size: 0.9rem;
+}
+footer li +li{
+padding-left: 20px;
+}
+footer p{
+    font-size: 0.99rem;
+    color:  hsl(0, 0%, 55%);
+    font-family: "Alata";
+}
+.icones{
+    text-align: end;
+}
+.icones img{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.degrade{
+    position: absolute;
+    width:256px ;
+    height: 450px;
+    background: linear-gradient(to top,  rgba(0, 0, 0, 0.568) 0%, rgba(255, 255, 255, 0) 75%);
+    top: 0;
     
 }
